@@ -53,13 +53,16 @@ Conversations linked via candidate_id
 Displays candidate name, role, and latest message preview
 
 **Tech Stack**
+
 Frontend: React (Vite), Tailwind CSS, Axios, React Router
 Backend: FastAPI (Python), Pydantic, REST APIs, in-memory session management (MVP)
 
 **System Architecture**
+
 React Frontend → FastAPI Backend → AI Evaluation Engine → Session Manager → Database
 
 **Modules**
+
 Recruiter Dashboard
 Candidate Pipeline
 Candidate Profiles
@@ -69,10 +72,12 @@ Messaging System
 Bulk Upload System
 
 **Limitations (MVP)**
+
 No authentication system
 WebSocket replaced with polling/in-memory logic
 Webcam monitoring is simulated
 SQLite used instead of production database
 
 **Summary**
+
 ProofHire AI is a simulation of an enterprise ATS system that integrates AI-based evaluation, recruitment workflow automation, live assessment tracking, and interview management into a unified platform.
